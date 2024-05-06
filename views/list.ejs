@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data from MySQL</title>
+</head>
+<body>
+  <h1>Data from MySQL</h1>
+  <ul>
+    <% for (const row of data) { %>
+      <li>
+        Name: <%= row.name %> - Email: <%= row.email %>
+      </li>
+    <% } %>
+  </ul>
+</body>
+</html>

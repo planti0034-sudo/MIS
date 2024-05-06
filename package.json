@@ -1,0 +1,10 @@
+{
+    "name": "med_info_sys",
+    "version": "1.0.0",
+    "description": "Working by reading and writing data from MySQL using HTML, Node.js and Express",
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.17.3",
+        "mysql": "^2.18.1"
+    }
+}
